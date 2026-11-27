@@ -11218,7 +11218,7 @@
 				)
 			)
 		)
-		(property "Not" "Degson DG950 vidali klemens 2P 9.5 mm, 30 A, 4 mm2; 1=CIKIS+ 2=CIKIS- (OUTN sasiye baglanmaz)"
+		(property "Not" "Degson DG950 vidali klemens 2P 9.5 mm, 30 A, 4 mm2; GIRIS 12-70 V DC: 1=+ 2=GND"
 			(at 20.32 35.56 0)
 			(hide yes)
 			(show_name no)

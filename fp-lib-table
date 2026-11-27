@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "lab_buck") (type "KiCad") (uri "${KIPRJMOD}/kutuphane/lab_buck.pretty") (options "") (descr "Buck modulu proje footprintleri"))
+)

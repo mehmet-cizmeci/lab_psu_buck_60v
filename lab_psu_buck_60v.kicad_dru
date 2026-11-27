@@ -1,0 +1,20 @@
+(version 1)
+# hat genisligi >= 0.5 mm (elle uretime uygun)
+(rule "hat_min_0.5"
+  (condition "A.Type == 'Track' && !(A.insideArea('U_FAN1') || A.insideArea('U_FAN2') || A.insideArea('U_FAN3') || A.insideArea('U_FAN4'))")
+  (constraint track_width (min 0.5mm)))
+(rule "U_fanout"
+  (condition "(A.insideArea('U_FAN1') || A.insideArea('U_FAN2') || A.insideArea('U_FAN3') || A.insideArea('U_FAN4')) && (B.insideArea('U_FAN1') || B.insideArea('U_FAN2') || B.insideArea('U_FAN3') || B.insideArea('U_FAN4'))")
+  (constraint clearance (min 0.2mm)))
+# guc kati bolgesi (LAB_GUC alani) icin aciklik
+(rule "lab_guc_kati"
+  (condition "A.insideArea('LAB_GUC') && B.insideArea('LAB_GUC')")
+  (constraint clearance (min 0.2mm)))
+# bakir dolgu - yol araligi >= 1.0 mm
+(rule "dolgu_yol_1mm"
+  (condition "(A.Type == 'Zone' && B.Type == 'Track') || (A.Type == 'Track' && B.Type == 'Zone')")
+  (constraint clearance (min 1.0mm)))
+# tek tarafli: ust bakirda (F.Cu) dolgu yok. F.Cu yol/via = atlama teli (uretimde F.Cu basilmaz)
+(rule "tek_taraf"
+  (layer "F.Cu")
+  (constraint disallow zone))

@@ -1,0 +1,194 @@
+(footprint "Toroid_D36_Yatay"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Yatay toroid (2x T130 ust uste ~D36 mm), uclar icin 3 delikli ped, M4 naylon vida")
+	(property "Reference" "REF**"
+		(at 0 -20.5 0)
+		(layer "F.SilkS")
+		(uuid "6abf51a2-18fd-4744-9505-450939e7284f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "136f1272-3ea2-4a76-9b26-fc1a6bfa8c6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57f93934-a09a-49db-9ff2-fd8c4f1ee217")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a23562a-2fbe-41d9-abd2-84891d9b3379")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "0aa3d86a-d972-4cf9-8afd-d9cb56061267")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 18.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "97234cac-5b3f-47b2-8c49-18036c54613a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 19 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "01850dfb-3483-4e40-8960-b8daf365215a")
+	)
+	(fp_poly
+		(pts
+			(xy -28 -6) (xy -18.5 -6) (xy -18.5 6) (xy -28 6)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "91813fb9-7f7d-43e1-b729-e820101254b2")
+	)
+	(fp_poly
+		(pts
+			(xy 18.5 -6) (xy 28 -6) (xy 28 6) (xy 18.5 6)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7ffb9a5b-70dc-462c-8a31-534222b1437f")
+	)
+	(fp_text user "1"
+		(at -22.5 -6.83 0)
+		(layer "F.SilkS")
+		(uuid "355b2fef-1105-42fc-86bf-e2b4b07d99e3")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at 22.5 -6.9 0)
+		(layer "F.SilkS")
+		(uuid "c96a0964-afcc-4909-be09-bad451c55571")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "silikonla yapistir"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9c8f0a4c-60a4-4d14-8529-ce7ca086a082")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -25.5 0)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f6d2d9f-5380-4bc3-8820-c25deb2e585a")
+	)
+	(pad "1" thru_hole circle
+		(at -22.5 -3)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a98abe3-c22a-47b3-b366-5f5350537291")
+	)
+	(pad "1" thru_hole circle
+		(at -22.5 3)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8715ceca-163b-476d-988c-864b4d75f34a")
+	)
+	(pad "2" thru_hole circle
+		(at 22.5 -3)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e845db19-3fbd-4e43-a21e-b5fd9ea163fc")
+	)
+	(pad "2" thru_hole circle
+		(at 22.5 3)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9feaeb24-efbf-4588-bd5d-f44bcee9f9e5")
+	)
+	(pad "2" thru_hole circle
+		(at 25.5 0)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c68fbe0-28ed-4463-93e7-248b721ce085")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kutuphane/lab_buck.3dshapes/Toroid_D36_Yatay.wrl" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+)

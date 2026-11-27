@@ -1,0 +1,189 @@
+(footprint "TerminalBlock_Degson_DG950_1x02_P9.50mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "Degson DG950-9.5-02P vidali klemens 2P, 9.5 mm, 30 A. Govde olculeri yaklasik - veri sayfasiyla teyit edin")
+	(property "Reference" "REF**"
+		(at 4.75 -8.2 0)
+		(layer "F.SilkS")
+		(uuid "0af191f8-0ac1-4a37-9f8c-4bc59f541363")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CIKIS 0-60V"
+		(at 4.75 8.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65753aac-5651-48aa-a058-9256212dd67e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ece0f62-62fd-4043-9c0f-f21398d797aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65d6ab35-d139-425b-9923-742910b49160")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "DG950-9.5-02P-14-00AH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "540c6e06-f4ac-4ed8-b071-a698feb7e294")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tedarikci" "Ozdisan"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c507e650-965a-4967-ae3c-5590a66a8ddd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Uretici" "DEGSON"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0941f4ff-cf97-491c-a805-f9e411bd1072")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Not" "Degson DG950 vidali klemens 2P 9.5 mm, 30 A, 4 mm2; 1=CIKIS+ 2=CIKIS- (OUTN sasiye baglanmaz)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82c719b7-ee45-4ea7-bd75-fd3726842830")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "lab_psu_buck_60v.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4.75 -6.5)
+		(end 14.25 6.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "62159241-5aff-41f6-9a5d-235b7a2ab0f7")
+	)
+	(fp_rect
+		(start -5.25 -7)
+		(end 14.75 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ada7526d-507d-4e61-94f7-ddc0691c8106")
+	)
+	(fp_rect
+		(start -4.65 -6.4)
+		(end 14.15 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c63bbf1d-e712-47ff-9485-9ce63eb0407f")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 4.2 4.2)
+		(drill 1.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.8)
+			(max_length 100)
+			(best_width_ratio 0.9)
+			(max_width 100)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "3ba81852-716f-4967-b2b7-e864ece2aefe")
+	)
+	(pad "2" thru_hole circle
+		(at 9.5 0)
+		(size 4.2 4.2)
+		(drill 1.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.8)
+			(max_length 100)
+			(best_width_ratio 0.9)
+			(max_width 100)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "cb010f27-b020-4b30-a21c-567e3e21cf44")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kutuphane/lab_buck.3dshapes/TerminalBlock_Degson_DG950_1x02_P9.50mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
